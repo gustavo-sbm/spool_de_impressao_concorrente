@@ -15,7 +15,7 @@ int main()
     int qtdImpressoras;
     int capacidadeSpool;
     int timeScan;
-    std::cout<<"Insira a Quantidade de processos, Quantidade de impressoras, Capacidade máxima do buffer de impressão e Tempo de impressão por página";
+    std::cout<<"Insira a Quantidade de processos, Quantidade de impressoras, Capacidade máxima do buffer de impressão e Tempo de impressão por página\n";
     
     std::cin >> qtdProcessos;
     std::cin >> qtdImpressoras;
