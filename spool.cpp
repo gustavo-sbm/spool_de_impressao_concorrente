@@ -2,6 +2,7 @@
 #include <iostream>
 #include <iomanip>
 #include <sstream>
+#include <format>
 
 Spool::Spool(int capacidade) : full(0), empty(capacidade) {}
 
