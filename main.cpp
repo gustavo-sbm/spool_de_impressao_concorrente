@@ -1,11 +1,3 @@
-/******************************************************************************
-
-                              Online C++ Compiler.
-               Code, Compile, Run and Debug C++ program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
 #include <iostream>
 #include "spool.hpp"
 
@@ -15,11 +7,13 @@ int main()
     int qtdImpressoras;
     int capacidadeSpool;
     int timeScan;
-    std::cout<<"Insira a Quantidade de processos, Quantidade de impressoras, Capacidade máxima do buffer de impressão e Tempo de impressão por página\n";
-    
+    std::cout<<"Insira a Quantidade de processos: \n";
     std::cin >> qtdProcessos;
+    std::cout<<"Insira a Quantidade de impressoras:\n";
     std::cin >> qtdImpressoras;
+    std::cout<<"Insira a Capacidade máxima do buffer de impressão:\n";
     std::cin >> capacidadeSpool;
+    std::cout<<"Insira o Tempo de impressão por página:\n";
     std::cin >> timeScan;
     
     Gerenciador g(capacidadeSpool, qtdProcessos, qtdImpressoras, timeScan);
